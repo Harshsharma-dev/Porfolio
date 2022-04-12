@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  color: #fff;
+  margin: 0 auto;
+}
+
+.home__intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.home__intro > h1 {
+  font-family: "Megrim", cursive;
+  /* font-family: "Rubik Moonrocks", cursive; */
+  display: block;
+  width: auto;
+  font-size: 5em;
+  color: hsla(0, 0%, 100%, 0.87);
+  margin: 0;
+  line-height: 110%;
+  text-shadow: 3px 6px 0 rgb(50 50 50 / 15%);
+}
+
+.home__intro > h2 {
+  padding: 20px;
+  font-family: "Raleway";
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.87);
+  font-size: 1.5em;
+  font-weight: 0;
+  letter-spacing: 0.3em;
+  background: rgba(50, 50, 50, 0.15);
+  backdrop-filter: blur(5px);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .home__intro > h2 {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}

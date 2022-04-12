@@ -1,0 +1,40 @@
+.header {
+  display: inline-block;
+  align-items: center;
+  position: fixed;
+  padding: 0 2%;
+  top: 27vh;
+  z-index: 999;
+}
+.home__icon {
+  color: white;
+}
+
+.header__links {
+  padding: 0.5rem;
+}
+
+.header__links > li {
+  margin-bottom: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.header__links > li > a > p {
+  /* display: none; */
+  margin: 0 0 0 5px;
+}
+
+/* .header__links > li > a {
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 2px;
+  text-decoration: none;
+  color: white;
+} */
+
+.header__iconButton {
+  padding: 0;
+}
