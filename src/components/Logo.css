@@ -1,9 +1,15 @@
-.Logo {
+.logo {
   font-family: "Megrim", cursive;
   display: inline-block;
-  top: 5%;
+  top: 2%;
   position: absolute;
-  left: 2%;
+  left: 1.5%;
+  position: fixed;
+  bottom: 0;
+}
+
+.logo > a {
   font-size: 1.5rem;
   color: #fff;
+  text-decoration: none;
 }

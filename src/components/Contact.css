@@ -1,0 +1,185 @@
+.contact {
+  /* margin-top: 50px; */
+}
+
+.contact__me {
+  width: 100%;
+}
+
+.contact__main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5vh;
+}
+
+.contact__formContainer {
+  width: 500px;
+  padding: 15px;
+  margin: 0 82px;
+}
+
+#contact__form {
+  flex-direction: column;
+  /* margin-top: 65px; */
+}
+
+.contact__formElement {
+  margin: 10px 0 5px 0;
+}
+
+.contact__formElement input,
+.contact__formElement textarea {
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid #e1e1e1;
+  border-radius: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  color: #a5bbd0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contact__formElement input::placeholder,
+.contact__formElement textarea::placeholder {
+  color: #a5bbd0;
+  opacity: 1;
+}
+
+.contact__formElement input:focus,
+.contact__formElement textarea:focus {
+  border-image: -webkit-linear-gradient(0deg, #6ebdfe 0%, #9b8aff 100%);
+  border-image: -ms-linear-gradient(0deg, #6ebdfe 0%, #9b8aff 100%);
+  border-image-slice: 1;
+}
+
+.contact__formElement textarea {
+  height: 200px;
+  width: 100%;
+  resize: none;
+  margin-top: 15px;
+  background-color: transparent;
+}
+
+.contact__formControl {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  /* background-color: #fff; */
+  background-color: transparent;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.form-btn {
+  margin-top: 40px;
+  height: 70px;
+  width: 170px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 60px;
+  background-image: linear-gradient(
+    to right,
+    #6fbcfe 0%,
+    #998dff 51%,
+    #6fbcfe 100%
+  );
+  background-size: 200% auto;
+  z-index: 2;
+  display: inline-block;
+  color: #f8f9fa;
+  outline: none;
+  border: 6px solid rgb(204 241 255 / 97%);
+  cursor: pointer;
+  transition: all 400ms ease-out;
+}
+
+.form-btn:hover {
+  background-image: linear-gradient(
+    to left,
+    #6fbcfe 51%,
+    #998dff 100%,
+    #6fbcfe 0%
+  );
+}
+
+.sec-title {
+  text-align: center;
+  padding-bottom: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.sec-title a{
+  text-decoration: none;
+}
+
+.sec-title img {
+  padding-bottom: 20px;
+}
+
+.sec-title h6 {
+  font-size: 14px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.sec-title h2 {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.sec-5-title {
+  /* padding: 0 70px; */
+
+  text-align: center;
+  padding-bottom: -75px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  text-align: left;
+  width: 511px;
+  padding: 0 110px;
+}
+
+.touch-details h5 {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  display: block;
+  padding: 50px 0 20px 0;
+  text-decoration: none;
+}
+
+.touch-details h4 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.sec-5-title p {
+  margin: 20px 0;
+  color: #868e96;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}

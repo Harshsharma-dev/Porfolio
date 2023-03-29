@@ -13,8 +13,8 @@
   padding: 0.3rem;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(20px);
-  /* box-shadow: white 3px; */
-  /* box-shadow: 1px 6px 10px 0px grey; */
+  position: fixed;
+  bottom: 0;
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
